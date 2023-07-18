@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  background-color: #0067A3;
+  padding: 0 20px;
+}
+
+.tasks-active {
+  margin-right: 36px;
+}
+
+.tasks-creator {
+  margin-left: auto;
+}
+
+@media (max-width: 500px) {
+  .footer {
+    display: none;
+  }
+}
